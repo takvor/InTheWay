@@ -1,1 +1,14 @@
+<<<<<<< HEAD
 Library
+=======
+#############
+## Unity
+#############
+
+/Library
+/Temp
+/obj
+*.csproj
+*.unityproj
+*.sln
+>>>>>>> fb7bfc45ff4317227b70a530e144532918de1c20
