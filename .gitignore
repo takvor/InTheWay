@@ -2,7 +2,7 @@
 ## Unity
 #############
 
-/library
+/Library
 /Temp
 /obj
 *.csproj
