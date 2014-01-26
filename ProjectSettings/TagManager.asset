@@ -41,7 +41,17 @@ TagManager:
     userID: 1
     uniqueID: 723734219
     locked: 1
+<<<<<<< HEAD
   - name: Default
     userID: 0
     uniqueID: 0
+=======
+  - name: Fred
+    userID: 2
+    uniqueID: 1786709545
+    locked: 0
+  - name: 
+    userID: 3
+    uniqueID: 2263423269
+>>>>>>> added possum walking animation
     locked: 0
