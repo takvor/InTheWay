@@ -79,19 +79,19 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 761284997}
     m_Modifications:
     - target: {fileID: 400000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.21111727
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.88075161
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -10.5699997
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
       propertyPath: m_LocalRotation.x
@@ -113,6 +113,18 @@ Prefab:
       propertyPath: m_NormalizedViewPortRect.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
+      propertyPath: orthographic size
+      value: 3.5705061
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 98c8ddc79ded7374c873bb7d178029f7, type: 2}
   m_RootGameObject: {fileID: 1356411388}
@@ -127,6 +139,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 761284997}
   - 212: {fileID: 761284996}
+  - 114: {fileID: 761284998}
+  - 61: {fileID: 761284999}
   m_Layer: 0
   m_Name: Story Board 2
   m_TagString: Untagged
@@ -165,10 +179,34 @@ Transform:
   m_PrefabInternal: {fileID: 1511518564}
   m_GameObject: {fileID: 761284995}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.21111727, y: 3.88075161, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1356411393}
   m_Father: {fileID: 0}
+--- !u!114 &761284998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761284995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43ecfb9ca190d6d4a977f6937623d80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextSceneString: StoryBoard_scene3
+--- !u!61 &761284999
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 761284995}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 12.8000002, y: 7.19999981}
+  m_Center: {x: 0, y: 0}
 --- !u!1 &1356411388
 GameObject:
   m_ObjectHideFlags: 0
@@ -232,8 +270,8 @@ Camera:
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
-  orthographic size: 5
+  orthographic: 1
+  orthographic size: 3.5705061
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -249,10 +287,10 @@ Transform:
   m_PrefabInternal: {fileID: 96336886}
   m_GameObject: {fileID: 1356411388}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.21111727, y: 3.88075161, z: -10.5699997}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 761284997}
 --- !u!1001 &1511518564
 Prefab:
   m_ObjectHideFlags: 0
@@ -262,11 +300,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: c99751aa4793eb24f8747e70449eca7b, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -6.21111727
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c99751aa4793eb24f8747e70449eca7b, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 3.88075161
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: c99751aa4793eb24f8747e70449eca7b, type: 2}
       propertyPath: m_LocalPosition.z

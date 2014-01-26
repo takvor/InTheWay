@@ -15,10 +15,10 @@ public class TitleScreenButton : MonoBehaviour {
 
 	void OnMouseDown(){
 		Debug.Log("Felt mouse down.");
-		Application.LoadLevel ("StoryBoard_scene1");
+		transform.Translate(new Vector3(0,0,1f));
 	}
 
 	void OnMouseUp(){
-
+		Application.LoadLevel ("StoryBoard_scene1");
 	}
 }
