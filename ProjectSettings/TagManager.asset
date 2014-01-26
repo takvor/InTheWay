@@ -53,3 +53,11 @@ TagManager:
     userID: 3
     uniqueID: 950801793
     locked: 0
+  - name: Normal Possum
+    userID: 4
+    uniqueID: 3926332709
+    locked: 0
+  - name: Spike Possum
+    userID: 5
+    uniqueID: 1909289323
+    locked: 0
