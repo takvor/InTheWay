@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\InTheWayBad\Assets\Scripts\BackgroundParallax.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GUIScript.cs">
     <Files>
-      <File FileName="..\InTheWayBad\Assets\Scripts\BackgroundParallax.cs" Line="15" Column="2" />
+      <File FileName="Assets\Scripts\GUIScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GUIScript.cs" Line="29" Column="60" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
