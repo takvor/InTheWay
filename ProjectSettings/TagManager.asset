@@ -45,3 +45,7 @@ TagManager:
     userID: 1
     uniqueID: 723734219
     locked: 1
+  - name: Duck
+    userID: 2
+    uniqueID: 2551383165
+    locked: 0
