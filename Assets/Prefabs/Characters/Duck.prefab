@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 212: {fileID: 21200000}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Wing_Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25,7 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400002}
   - 212: {fileID: 21200002}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Leg_Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400004}
   - 212: {fileID: 21200004}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Leg_Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 400006}
   - 212: {fileID: 21200006}
-  m_Layer: 0
+  - 58: {fileID: 5800000}
+  m_Layer: 9
   m_Name: Duckling_Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +74,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400008}
   - 212: {fileID: 21200008}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Eyes_Happy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +90,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400010}
   - 212: {fileID: 21200010}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +106,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400012}
   - 212: {fileID: 21200012}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Beak_Closed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +122,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400014}
   - 95: {fileID: 9500000}
-  m_Layer: 0
+  - 58: {fileID: 5800002}
+  - 50: {fileID: 5000000}
+  m_Layer: 9
   m_Name: Duck
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -137,7 +140,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400016}
   - 212: {fileID: 21200014}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Eyes_Sad
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -153,7 +156,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400018}
   - 212: {fileID: 21200016}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Wing_Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +172,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 400020}
   - 212: {fileID: 21200018}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Duck_Beak_Open
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -307,6 +310,43 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400014}
+--- !u!50 &5000000
+Rigidbody2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: .0500000007
+  m_GravityScale: 1
+  m_FixedAngle: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+--- !u!58 &5800000
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: 2.13000011
+  m_Center: {x: 1.72000003, y: 3.1099999}
+--- !u!58 &5800002
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100014}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Radius: 3.1500001
+  m_Center: {x: 1.01999998, y: -2.25}
 --- !u!95 &9500000
 Animator:
   serializedVersion: 2
@@ -341,7 +381,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: 4deaee6e3f3abe84684451a3f76fdfe6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200002
@@ -364,7 +404,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: b046c88e71343bf4c971b3b25b0d80b6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200004
@@ -387,7 +427,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: -1
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: 8e75885374dad7e47a15974c7f89bea9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200006
@@ -410,7 +450,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: 80ce8a616e1c2fe4092533961c5fbdbd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200008
@@ -433,7 +473,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: 7ef91c092482ffa4eabcc75b7608b126, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200010
@@ -456,7 +496,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: 0de2ef4ae3e1586479a388da076ecced, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200012
@@ -479,7 +519,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: 76e1629ae4bff264bb257e6c5fef50b3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200014
@@ -502,7 +542,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: e855b28aa6089cf468e9b7bc159310db, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200016
@@ -525,7 +565,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 2
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: 8b2b4c2917d8f6f4bb1581fb04d22389, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &21200018
@@ -548,7 +588,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_SortingLayerID: 2551383165
+  m_SortingLayerID: 34019015
   m_Sprite: {fileID: 21300000, guid: d5f1b7b726d5a2240b5ff519ca0924b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000

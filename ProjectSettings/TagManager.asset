@@ -12,8 +12,8 @@ TagManager:
   Builtin Layer 5: 
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: 
-  User Layer 9: 
+  User Layer 8: Background
+  User Layer 9: PLayer
   User Layer 10: 
   User Layer 11: 
   User Layer 12: 
@@ -37,27 +37,19 @@ TagManager:
   User Layer 30: 
   User Layer 31: 
   m_SortingLayers:
-  - name: Background
-    userID: 1
-    uniqueID: 723734219
-    locked: 1
-<<<<<<< HEAD
-  - name: Duck
-    userID: 2
-    uniqueID: 2551383165
-=======
-<<<<<<< HEAD
   - name: Default
     userID: 0
     uniqueID: 0
-=======
-  - name: Fred
-    userID: 2
-    uniqueID: 1786709545
     locked: 0
-  - name: 
+  - name: Background
+    userID: 1
+    uniqueID: 3680604079
+    locked: 0
+  - name: Duck
+    userID: 2
+    uniqueID: 34019015
+    locked: 0
+  - name: Fred
     userID: 3
-    uniqueID: 2263423269
->>>>>>> added possum walking animation
->>>>>>> 27111a95ffb76e47c18d060265d16ae69509faf2
+    uniqueID: 950801793
     locked: 0
