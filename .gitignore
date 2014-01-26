@@ -1,13 +1,10 @@
 #############
 ## Unity
 #############
-/Library
-/Temp
-/obj
+Library
+Temp
+obj
 *.csproj
 *.unityproj
-<<<<<<< HEAD
 *.sln
-=======
-*.sln
->>>>>>> origin/HeroMovement
+*.exe
