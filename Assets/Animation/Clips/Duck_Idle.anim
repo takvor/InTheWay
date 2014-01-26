@@ -1,0 +1,458 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Duck_Idle
+  serializedVersion: 4
+  m_AnimationType: 2
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves: []
+  m_CompressedRotationCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.51908159, y: -1.03453636, z: 0}
+        inSlope: {x: 0, y: -.730927229, z: 0}
+        outSlope: {x: 0, y: -.730927229, z: 0}
+        tangentMode: 0
+      - time: .5
+        value: {x: 1.51908159, y: -1.39999998, z: 0}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1.51908159, y: -1.03453636, z: 0}
+        inSlope: {x: 0, y: .730927229, z: 0}
+        outSlope: {x: 0, y: .730927229, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Duck_Body
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.74825239, y: -1.16549492, z: 0}
+        inSlope: {x: 0, y: -.426372826, z: 0}
+        outSlope: {x: 0, y: -.426372826, z: 0}
+        tangentMode: 0
+      - time: .550000012
+        value: {x: 1.74825239, y: -1.39999998, z: 0}
+        inSlope: {x: 0, y: .0473747551, z: 0}
+        outSlope: {x: 0, y: .0473747551, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1.74825239, y: -1.16549492, z: 0}
+        inSlope: {x: 0, y: .521122336, z: 0}
+        outSlope: {x: 0, y: .521122336, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Duckling_Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.41926885, y: -1.44053817, z: 0}
+        inSlope: {x: 0, y: -.502184272, z: 0}
+        outSlope: {x: 0, y: -.502184272, z: 0}
+        tangentMode: 0
+      - time: .516666651
+        value: {x: 1.41926885, y: -1.70000005, z: 0}
+        inSlope: {x: 0, y: .017316699, z: 0}
+        outSlope: {x: 0, y: .017316699, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1.41926885, y: -1.44053817, z: 0}
+        inSlope: {x: 0, y: .53681767, z: 0}
+        outSlope: {x: 0, y: .53681767, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Duck_Wing_Down
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.74825239, y: -1.16549492, z: 0}
+        inSlope: {x: 0, y: -.426372826, z: 0}
+        outSlope: {x: 0, y: -.426372826, z: 0}
+        tangentMode: 0
+      - time: .550000012
+        value: {x: 1.74825239, y: -1.39999998, z: 0}
+        inSlope: {x: 0, y: .0473747551, z: 0}
+        outSlope: {x: 0, y: .0473747551, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1.74825239, y: -1.16549492, z: 0}
+        inSlope: {x: 0, y: .521122336, z: 0}
+        outSlope: {x: 0, y: .521122336, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Duck_Eyes_Happy
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: {x: 1.74825239, y: -1.16549492, z: 0}
+        inSlope: {x: 0, y: -.426372826, z: 0}
+        outSlope: {x: 0, y: -.426372826, z: 0}
+        tangentMode: 0
+      - time: .550000012
+        value: {x: 1.74825239, y: -1.39999998, z: 0}
+        inSlope: {x: 0, y: .0473747551, z: 0}
+        outSlope: {x: 0, y: .0473747551, z: 0}
+        tangentMode: 0
+      - time: 1
+        value: {x: 1.74825239, y: -1.16549492, z: 0}
+        inSlope: {x: 0, y: .521122336, z: 0}
+        outSlope: {x: 0, y: .521122336, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    path: Duck_Beak_Closed
+  m_ScaleCurves: []
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 60
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_StartTime: 0
+    m_StopTime: 1
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_LoopTime: 1
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.51908159
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1.51908159
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Duck_Body
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.03453636
+        inSlope: -.730927229
+        outSlope: -.730927229
+        tangentMode: 10
+      - time: .5
+        value: -1.39999998
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: -1.03453636
+        inSlope: .730927229
+        outSlope: .730927229
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Duck_Body
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Duck_Body
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.74825239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1.74825239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Duckling_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.16549492
+        inSlope: -.426372826
+        outSlope: -.426372826
+        tangentMode: 10
+      - time: .550000012
+        value: -1.39999998
+        inSlope: .0473747551
+        outSlope: .0473747551
+        tangentMode: 10
+      - time: 1
+        value: -1.16549492
+        inSlope: .521122336
+        outSlope: .521122336
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Duckling_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Duckling_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.41926885
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1.41926885
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Duck_Wing_Down
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.44053817
+        inSlope: -.502184272
+        outSlope: -.502184272
+        tangentMode: 10
+      - time: .516666651
+        value: -1.70000005
+        inSlope: .017316699
+        outSlope: .017316699
+        tangentMode: 10
+      - time: 1
+        value: -1.44053817
+        inSlope: .53681767
+        outSlope: .53681767
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Duck_Wing_Down
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Duck_Wing_Down
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.74825239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1.74825239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Duck_Eyes_Happy
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.16549492
+        inSlope: -.426372826
+        outSlope: -.426372826
+        tangentMode: 10
+      - time: .550000012
+        value: -1.39999998
+        inSlope: .0473747551
+        outSlope: .0473747551
+        tangentMode: 10
+      - time: 1
+        value: -1.16549492
+        inSlope: .521122336
+        outSlope: .521122336
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Duck_Eyes_Happy
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Duck_Eyes_Happy
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 1.74825239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 1.74825239
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.x
+    path: Duck_Beak_Closed
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: -1.16549492
+        inSlope: -.426372826
+        outSlope: -.426372826
+        tangentMode: 10
+      - time: .550000012
+        value: -1.39999998
+        inSlope: .0473747551
+        outSlope: .0473747551
+        tangentMode: 10
+      - time: 1
+        value: -1.16549492
+        inSlope: .521122336
+        outSlope: .521122336
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.y
+    path: Duck_Beak_Closed
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      - time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 10
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+    attribute: m_LocalPosition.z
+    path: Duck_Beak_Closed
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves: []
+  m_Events: []
