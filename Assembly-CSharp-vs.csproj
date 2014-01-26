@@ -48,13 +48,6 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
      <Compile Include="Assets\Scripts\GUIScript.cs" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{AE561BEB-E3A2-E8E3-01AC-EAE66AF1046A}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
      <Compile Include="Assets\Scripts\MouseLook.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
